@@ -9,6 +9,6 @@ for making the boiler code gone if you want to post your blog post or just want 
 
 ### Contributers
 this projects needs your contribution and we need a frontend designer so i we can make this better UX
-so if you know how to design some cool frontend in react you are welcome.
+so if you know how to design some cool frontend you are welcome.
 
 for more detail information please check our contribution.md
