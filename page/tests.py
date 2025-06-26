@@ -41,8 +41,6 @@ class BlogModelTest(TestCase):
             star = 2,
             description= "life is like this description :) ",
             image_main = SimpleUploadedFile('small.gif', small_gif, content_type='image/gif'),
-            image_one = SimpleUploadedFile('small_one.gif', small_gif, content_type='image/gif'),
-            image_two = SimpleUploadedFile('small_two.gif', small_gif, content_type='image/gif'),
         )
         blog = Blog.objects.get(title = "another blog about how dark is life")
         self.assertEqual(blog.description , "life is like this description :) ")
